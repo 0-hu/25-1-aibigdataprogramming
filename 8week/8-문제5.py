@@ -2,6 +2,9 @@
 
 score = int(input())
 
+print("이번 학기 점수: ", score)
+print("등급: ", end='')
+
 if score >= 90:
     print ("A")
 elif score >= 80:
